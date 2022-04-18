@@ -9,7 +9,8 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
+      <!--<canvas id="unity-canvas" width=960 height=600></canvas>-->
+	  <canvas id="unity-canvas" width=1366 height=768></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -20,7 +21,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Nethereum.Unity.Webgl</div>
+        <div id="unity-build-title">GladiatorWar</div>
       </div>
     </div>
     <script>
@@ -63,9 +64,9 @@
         frameworkUrl: buildUrl + "/Build.framework.js",
         codeUrl: buildUrl + "/Build.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "Nethereum.Unity.Webgl",
-        productVersion: "1.0",
+        companyName: "HaticeStudio",
+        productName: "GladiatorWar",
+        productVersion: "0.01",
         showBanner: unityShowBanner,
       };
 
@@ -96,8 +97,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1366px";
+        canvas.style.height = "768px";
       }
 
       loadingBar.style.display = "block";
