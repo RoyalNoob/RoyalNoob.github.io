@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://github.com',
+  url: 'https://royalnoob.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/portfolio/',
@@ -17,10 +17,11 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'RoyalNoob', // Usually your GitHub org/user name.
   projectName: 'portfolio', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  
+
   deploymentBranch:'gh-pages',
 
   // Even if you don't use internationalization, you can use this field to set
